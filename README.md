@@ -38,6 +38,14 @@ expiry status using rule-based date logic.
 
 ## Screenshots
 
-![Dashboard](screenshots/dashboard.jpeg)
-![Add Document](screenshots/add_document.jpeg)
-![Document List](screenshots/document_list.jpeg)
+<a href="screenshots/dashboard.jpeg">
+  <img src="screenshots/dashboard.jpeg" width="250"/>
+</a>
+
+<a href="screenshots/add_document.jpeg">
+  <img src="screenshots/add_document.jpeg" width="250"/>
+</a>
+
+<a href="screenshots/document_list.jpeg">
+  <img src="screenshots/document_list.jpeg" width="250"/>
+</a>
