@@ -1,16 +1,37 @@
-# docguard
+# DocGuard – Document Expiry & Compliance Manager
 
-A new Flutter project.
+## Problem
+People often forget important document expiry dates, which can lead to stress,
+penalties, or service disruption.
 
-## Getting Started
+## Solution
+DocGuard is a local-first Flutter application that tracks documents and calculates
+expiry status using rule-based date logic.
 
-This project is a starting point for a Flutter application.
+## Features
+- Add and manage documents with issue & expiry dates
+- Automatic expiry status calculation (Valid / Expiring Soon / Expired)
+- Reminder windows (7 / 15 / 30 days)
+- Dashboard summary with real-time updates
+- Local-first storage using Hive for privacy
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Flutter
+- Dart
+- Hive (local storage)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Design Decisions
+- Offline-first approach to protect sensitive document data
+- Rule-based expiry logic to avoid stale or inconsistent data
+- Reactive UI using ValueListenableBuilder to sync storage and UI
+- Clear separation of business logic and presentation logic
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Edge Cases Handled
+- Expiry date equals today
+- Past expiry dates
+- Reminder window greater than remaining days
+
+## Future Improvements
+- Push notifications
+- Cloud sync
+- Document editing
