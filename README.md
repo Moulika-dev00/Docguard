@@ -36,3 +36,8 @@ expiry status using rule-based date logic.
 - Cloud sync
 - Document editing
 
+## Screenshots
+
+![Dashboard](screenshots/dashboard.jpeg)
+![Add Document](screenshots/add_document.jpeg)
+![Document List](screenshots/document_list.jpeg)
